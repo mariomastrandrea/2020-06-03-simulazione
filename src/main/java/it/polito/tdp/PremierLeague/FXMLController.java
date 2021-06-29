@@ -145,7 +145,7 @@ public class FXMLController
     		return;
     	}
 		
-		String numPlayersInput = this.txtGoals.getText();
+		String numPlayersInput = this.txtK.getText();
     	
     	if(numPlayersInput == null || numPlayersInput.isBlank())
     	{
