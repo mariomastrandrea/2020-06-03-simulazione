@@ -125,7 +125,7 @@ public class Model
 	private void recursiveDreamTeamsComputation(List<Player> partialSolution, 
 			List<Player> allPlayers, int level,	int numPlayers, int currentTeamStartingGrade)
 	{
-		if(allPlayers.size() == numPlayers)	//terminal case
+		if(partialSolution.size() == numPlayers)	//terminal case
 		{
 			if(currentTeamStartingGrade >= this.maxStartingGrade)
 			{
