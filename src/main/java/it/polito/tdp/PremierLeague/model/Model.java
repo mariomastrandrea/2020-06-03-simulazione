@@ -103,7 +103,7 @@ public class Model
 	{
 		if(this.graph == null) return null;
 		
-		this.dreamTeams = new HashSet<>();
+		this.dreamTeams = new ArrayList<>();
 		this.maxStartingGrade = Integer.MIN_VALUE;
 		
 		List<Player> partialSolution = new ArrayList<>();
